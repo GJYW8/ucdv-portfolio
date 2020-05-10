@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WHO BMI Comparison</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site-style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="main-header">
+        <div class="container-fluid">
+            <img src="Flag_of_Europe.svg" width="40" height="40" alt="logo">
+            <span class="logo-typo">EdUcate</span>
+            <span class="menu-icon">
+                <img src="menu-24px.svg" width="40" height="40">
+            </span>
+        </div>
+    </header>
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col">
+                <h1>Compare WHO BMI Data</h1>
+                <p>Select two regions and a date-range and compare them.</p>
+            </div>
+        </div>
+        <form id="selectForm" method="GET">
+            <div class="row">
+                <div class="col mt-3">
+                    <div class="row">
+                        <div class="col-2 form-group">
+                        <label for="selectRegion1">Region 1</label>
+                        <select class="form-control" name="selectRegion1" id="selectRegion1">
+                            <option>Global</option>
+                            <option>Africa</option>
+                            <option>Americas</option>
+                            <option>South-East Asia</option>
+                            <option>Europe</option>
+                            <option>Eastern Mediterranean</option>
+                            <option>Western Pacific</option>
+                        </select>
+                        </div>
+                        <div class="col-2 form-group">
+                            <label for="selectRegion2">Region 2</label>
+                            <select class="form-control" name="selectRegion2" id="selectRegion2">
+                                <option>Global</option>
+                                <option selected>Africa</option>
+                                <option>Americas</option>
+                                <option>South-East Asia</option>
+                                <option>Europe</option>
+                                <option>Eastern Mediterranean</option>
+                                <option>Western Pacific</option>
+                            </select>
+                        </div>
+                        <div class="col-2 form-group">
+                            <label for="selectYear1">Year From</label>
+                            <select class="form-control" name="selectYear1" id="selectYear1">
+                                <option>2016</option>
+                                <option>2015</option>
+                                <option>2014</option>
+                                <option>2013</option>
+                                <option>2012</option>
+                                <option>2011</option>
+                                <option>2010</option>
+                                <option>2009</option>
+                                <option>2008</option>
+                                <option>2007</option>
+                                <option>2006</option>
+                                <option selected>2005</option>
+                                <option>2004</option>
+                                <option>2003</option>
+                                <option>2002</option>
+                                <option>2001</option>
+                                <option>2000</option>
+                                <option>1999</option>
+                                <option>1998</option>
+                                <option>1997</option>
+                                <option>1996</option>
+                                <option>1995</option>
+                                <option>1994</option>
+                                <option>1993</option>
+                                <option>1992</option>
+                                <option>1991</option>
+                                <option>1990</option>
+                                <option>1989</option>
+                                <option>1988</option>
+                                <option>1987</option>
+                                <option>1986</option>
+                                <option>1985</option>
+                                <option>1984</option>
+                                <option>1983</option>
+                                <option>1982</option>
+                                <option>1981</option>
+                                <option>1980</option>
+                                <option>1979</option>
+                                <option>1978</option>
+                                <option>1977</option>
+                                <option>1976</option>
+                                <option>1975</option>
+                            </select>
+                        </div>
+                        <div class="col-2 form-group">
+                            <label for="selectYear2">Year To</label>
+                            <select class="form-control" name="selectYear2" id="selectYear2">
+                                <option selected>2016</option>
+                                <option>2015</option>
+                                <option>2014</option>
+                                <option>2013</option>
+                                <option>2012</option>
+                                <option>2011</option>
+                                <option>2010</option>
+                                <option>2009</option>
+                                <option>2008</option>
+                                <option>2007</option>
+                                <option>2006</option>
+                                <option>2005</option>
+                                <option>2004</option>
+                                <option>2003</option>
+                                <option>2002</option>
+                                <option>2001</option>
+                                <option>2000</option>
+                                <option>1999</option>
+                                <option>1998</option>
+                                <option>1997</option>
+                                <option>1996</option>
+                                <option>1995</option>
+                                <option>1994</option>
+                                <option>1993</option>
+                                <option>1992</option>
+                                <option>1991</option>
+                                <option>1990</option>
+                                <option>1989</option>
+                                <option>1988</option>
+                                <option>1987</option>
+                                <option>1986</option>
+                                <option>1985</option>
+                                <option>1984</option>
+                                <option>1983</option>
+                                <option>1982</option>
+                                <option>1981</option>
+                                <option>1980</option>
+                                <option>1979</option>
+                                <option>1978</option>
+                                <option>1977</option>
+                                <option>1976</option>
+                                <option>1975</option>
+                            </select>
+                        </div>
+                        <div class="col-2 d-flex align-items-end">
+                            <button type="submit" id="submitSelectors" class="btn btn-primary">Compare</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col pt-3" id="result">
+                <img class="d-none" id="loadingAnimation" alt="Loading…" src="loader.gif" width="40" height="40">
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready( function() {
+            $("#selectForm").on("submit", function(e) {
+                
+                var formData = {
+                        selectRegion1: $("#selectRegion1").val(),
+                        selectRegion2: $("#selectRegion2").val(),
+                        selectYear1:  $("#selectYear1").val(),
+                        selectYear2:  $("#selectYear2").val()
+                    };
+
+                $.ajax( {
+                    data: formData,
+                    type: 'GET',
+                    url: 'http://localhost:2093/bmi_who',
+                    beforeSend: function() {
+                        $('#loadingAnimation').removeClass('d-none');
+                    }
+                }
+                )
+                .done(function( data ) {
+                    // result is embed src                    
+                    $('#result').html( "<embed alt='graph' src="+data+">" );
+                })
+                .fail(function( error ) {
+                    $('#loadingAnimation').addClass('d-none');
+                    $('#result').html("Check if python server is running correctly.");
+                    console.error(error);
+                })
+                .always(function() {
+                    $('#loadingAnimation').addClass('d-none');
+                });
+
+                e.preventDefault();
+
+            });
+        } );
+    </script>
+  </body>
+</html>

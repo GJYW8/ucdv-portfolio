@@ -1,0 +1,14 @@
+{
+  "name": "@ravengao/parallel-coordinates-for-discriminate-patterns",
+  "main": "474fe6e331f86151@283.js",
+  "version": "283.0.0",
+  "homepage": "https://observablehq.com/@ravengao/parallel-coordinates-for-discriminate-patterns",
+  "author": {
+    "name": "Raven Gao",
+    "url": "https://observablehq.com/@ravengao"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

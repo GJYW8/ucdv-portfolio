@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>SpaceX – Mission Network</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700&display=swap" rel="stylesheet">
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<style type="text/css">
+  body {
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  svg {
+     background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f0c29, #1B1838, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f0c29, #1B1838, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .fi {
+    font-size: 10px;
+    font-weight: 700;
+    fill: white;
+    opacity: 0.8;
+    pointer-events: none;
+  }
+  
+  .rl {
+    font-size: 14px;
+    pointer-events: none;
+    fill: white;
+    text-shadow: 0px 0px 2px black;
+  }
+  
+  .hi {
+    opacity: 0.1;
+  }
+</style>
+</head>
+<body>
+  
+<form class="legend">
+  <strong>Visibility</strong>
+  <label for="launchId">
+    <input id="launchId" data-target="launch" type="checkbox" checked> Launch
+  </label>
+  <label for="launchpadId">
+    <input id="launchpadId" data-target="launchpad" type="checkbox" checked> Launch Site
+  </label>
+  <label for="missionId">
+    <input id="missionId" data-target="mission" type="checkbox" checked> Mission
+  </label>
+  <label for="payloadId">
+    <input id="payloadId" data-target="payload" type="checkbox" checked> Payload
+  </label>
+  <label for="rocketId">
+    <input id="rocketId" data-target="rocket" type="checkbox" checked> Rocket
+  </label>
+</form>
+
+  
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body)
+);
+
+</script>
+  
+<script>
+  $(document).ready( function() {
+    setTimeout( function() {
+    console.log($("input[type='checkbox']"));  
+    }, 5000);
+    $("input").on( "click", function() {
+      var target = $(this).data("target");
+      var value = $(this).val();
+      
+      // hide elements of that type
+      $("circle[data-target='"+target+"']").toggleClass("hi");
+      $("text[data-target='"+target+"']").toggleClass("hi");
+      
+    } );
+  } );
+</script>
+  
+</body>

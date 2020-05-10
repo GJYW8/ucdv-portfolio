@@ -1,0 +1,35 @@
+.x2 {
+    display: none;
+}
+
+.plot > .background {
+    background-color: transparent !important;
+}
+
+.tooltip rect {
+    fill: #fff !important;
+    fill-opacity: 1 !important;
+}
+
+.axis text,
+.title,
+.legends .legend text {
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.pygal-chart .axis text,
+.legends .legend text,
+.title,
+.tooltip .legend,
+.tooltip .value,
+.tooltip .x_label {
+    font-size: 22px !important;
+}
+
+g.legend {
+    margin-bottom: 0.5em !important;
+}
+
+.major {
+    font-weight: 600;
+}

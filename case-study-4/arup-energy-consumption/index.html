@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Stacked Bar Chart</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+<body>
+<style>
+    body {
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 2px;
+        }
+
+    .tick text {
+        color:rgb(100,100,100);
+    }
+
+    .grid line {
+    shape-rendering: crispEdges;
+    }
+
+        .tick text {
+        font-size: 16px;
+    }
+
+    .yAxis {
+        background: white;
+        fill: white;
+    }
+
+    .inline-label {
+        font-size:10px;
+        fill: white;
+    }
+</style>
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>

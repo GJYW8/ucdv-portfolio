@@ -1,0 +1,14 @@
+{
+  "name": "@jiazhewang/introduction-to-antv",
+  "main": "33acb7e4bb168a9f@1074.js",
+  "version": "1074.0.0",
+  "homepage": "https://observablehq.com/@jiazhewang/introduction-to-antv",
+  "author": {
+    "name": "Jiazhe Wang",
+    "url": "https://observablehq.com/@jiazhewang"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

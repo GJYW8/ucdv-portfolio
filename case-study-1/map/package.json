@@ -1,0 +1,14 @@
+{
+  "name": "@yuanzf/mapbox-gl-bubble-map_immgrants-by-metropolitan-area_colo",
+  "main": "30e8e5856f8802bd@351.js",
+  "version": "351.0.0",
+  "homepage": "https://observablehq.com/@yuanzf/mapbox-gl-bubble-map_immgrants-by-metropolitan-area_colo",
+  "author": {
+    "name": "Zhuangyuan Fan",
+    "url": "https://observablehq.com/@yuanzf"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

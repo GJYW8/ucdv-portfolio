@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>SpaceX – Data Converter</title>
+</head>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="_helper-functions.js"></script>
+<body>
+  <textarea id="output" cols="20" rows="20"></textarea>
+  
+  <script>
+    function jsonToD3Data( jsonArray ) {
+        nodes = [];
+        links = [];
+
+        for ( let filename of jsonArray ) {    
+          loadJSON( filename, function(response) {
+            // create nodes 
+            // translate filenames to types
+            var type = {
+              "launches.json" : "launch",
+              "launchpads.json" : "launchpad",
+              "missions.json" : "mission",
+              "payloads.json" : "payload",
+              "rockets.json" : "rocket",
+            }
+
+            responseFilename = type[response[0]];
+            responseData = response[1];
+
+            var responseNodes = convertToNodes( responseFilename, responseData );
+
+            // add nodes to nodes array
+            for (let node of responseNodes) {
+              nodes.push(node);
+            }
+
+            // create links
+            // R1 launch* <> rocket /via rocket_id 
+            // R2 launch* <> payload /via payloads[0].payload_id 
+            // R3 launch* <> launchpad /via launch_site.site_id
+            // R4 mission* <> payload /via payload_ids                    
+
+            if ( responseFilename == "launch" ) {        
+             for ( let node of responseData ) {
+                // R1
+                var link_R1 = {
+                  "source": node.flight_number,
+                  "target": node.rocket.rocket_id,
+                  "value": 0.5
+                }
+
+                // add link to links
+                links.push(link_R1);        
+
+                // R2
+                // go through all payloads assuming that one rocket can have multiple payloads
+                for ( let payload of node.rocket.second_stage.payloads ) {
+                  var link_R2 = {
+                    "source": node.flight_number,
+                    "target": payload.payload_id,
+                    "value": 0.5
+                  }
+
+                  // add link to links
+                  links.push(link_R2);
+                }
+
+                // R3  
+                var link_R3 = {
+                  "source": node.flight_number,
+                  "target": node.launch_site.site_id,
+                  "value": 0.5
+                }
+
+                // add link to links
+                links.push(link_R3);
+
+              } 
+            } else if ( responseFilename == "mission" ) {
+              for ( let node of responseData ) {
+                // R4
+                // go through all payloads assuming that one rocket can have multiple payloads
+                for ( let payload of node.payload_ids ) {
+                  
+                  // correct errors
+                  cleanPayloadId = payload;
+                  // delete manufacturer name from CRS payloads
+                  if ( payload.startsWith("SpaceX ") ) {
+                    cleanPayloadId = cleanPayloadId.replace("SpaceX ","");
+                  }
+                  
+                  var link_R4 = {
+                    "source": node.mission_id,
+                    "target": cleanPayloadId,
+                    "value": 0.5
+                  }
+
+                  // add link to links
+                  links.push(link_R4);            
+                }
+              }
+            }
+
+          } ); 
+        }    
+      
+        // build D3 data array
+        var d3Data = {
+          "nodes": nodes,
+          "links": links
+        };
+
+        return d3Data;
+      };
+
+      function convertToNodes( type, raw ) {
+        // translation table
+        var pickId = {
+          "launch": "flight_number",
+          "launchpad": "site_id",
+          "mission": "mission_id",
+          "payload": "payload_id",
+          "rocket": "rocket_id"
+        };
+        
+        // generate readable text labels combined
+        function generateLabel ( type, rawResponse ) {
+          if ( type == "launch" ) {
+            return rawResponse.mission_name + " ("+rawResponse.launch_year+")";
+          } else if ( type == "launchpad" ) {
+            return rawResponse.location.region + " ("+rawResponse.location.name+")";      
+          } else if ( type == "mission" ) {
+            return rawResponse.mission_name;      
+          } else if ( type == "payload" ) {
+            var weight = "";
+            if ( ! rawResponse.payload_mass_kg ) {
+              weight = rawResponse.payload_mass_kg+"kg";
+            }
+            return rawResponse.payload_id + " ("+rawResponse.payload_type+", "+weight+")";      
+          } else if ( type == "rocket" ) {
+            return rawResponse.rocket_name+ " ("+rawResponse.height.meters+"m)";      
+          } 
+        }
+        
+        // iterate over data
+        var nodes = [];
+        for ( let rawResponse of raw ){
+          var node = {
+            "name": rawResponse[pickId[type]],
+            "label": generateLabel( type, rawResponse ),
+            "group": type
+          }
+          nodes.push( node );
+        }
+        return nodes;
+      }
+
+      // convert multiple JSON files to a node file
+      var d3DataJson = jsonToD3Data( [ "launches.json", "launchpads.json", "missions.json", "payloads.json", "rockets.json" ] );
+    
+      // clean data after waiting for asynchronous retrievals to be finished (3sec)
+      setTimeout( function() {
+        // remove missing links
+          var index = 0;
+        
+          for ( let link of links ) {
+            var nodeExists = false;
+
+            for ( let node of nodes ) {
+              if ( node.name == link.target ) {              
+                  // the node with the given target exists
+                  // stop iterating
+                  nodeExists = true;
+                  break;
+              }
+            }
+
+            // replace with empty
+            if ( ! nodeExists ) {
+              console.log("get rid of: "+index+" ("+link.target+")");
+              links.splice( index, 1, "" );
+            }
+
+            index++;
+          }
+        
+          // remove empty values
+          links = links.filter(function (el) {
+            return el != "";
+          });
+        
+          // update links
+          d3DataJson.links = links;
+        
+        // output cleaned data
+        console.log(d3DataJson);
+      }, 
+      3000 );
+
+
+</script>
+</body>

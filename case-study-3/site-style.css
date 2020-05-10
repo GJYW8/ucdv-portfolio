@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(240,240,240,0.7);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 2em;
+}
+
+header.main-header {
+    background-color: #007bff;
+    padding: 1em 0;
+}
+
+.logo-typo {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 200;
+    color: rgba(255,255,255,0.8);
+    margin-left: 0.5em;
+    vertical-align: -25%;
+}
+
+.menu-icon {
+    float: right;
+}
+
+h1 {
+    font-weight: 400;
+    color: #007bff;
+}
+
+h1 + p {
+    font-size: 1.2em;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+label {
+    color: rgba(100,100,100);
+}

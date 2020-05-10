@@ -1,0 +1,3251 @@
+{
+  "nodes": [
+    {
+      "name": "falcon1",
+      "label": "Falcon 1 (22.25m)",
+      "group": "rocket"
+    },
+    {
+      "name": "falcon9",
+      "label": "Falcon 9 (70m)",
+      "group": "rocket"
+    },
+    {
+      "name": "falconheavy",
+      "label": "Falcon Heavy (70m)",
+      "group": "rocket"
+    },
+    {
+      "name": "starship",
+      "label": "Starship (118m)",
+      "group": "rocket"
+    },
+    {
+      "name": 1,
+      "label": "FalconSat (2006)",
+      "group": "launch"
+    },
+    {
+      "name": 2,
+      "label": "DemoSat (2007)",
+      "group": "launch"
+    },
+    {
+      "name": 3,
+      "label": "Trailblazer (2008)",
+      "group": "launch"
+    },
+    {
+      "name": 4,
+      "label": "RatSat (2008)",
+      "group": "launch"
+    },
+    {
+      "name": 5,
+      "label": "RazakSat (2009)",
+      "group": "launch"
+    },
+    {
+      "name": 6,
+      "label": "Falcon 9 Test Flight (2010)",
+      "group": "launch"
+    },
+    {
+      "name": 7,
+      "label": "COTS 1 (2010)",
+      "group": "launch"
+    },
+    {
+      "name": 8,
+      "label": "COTS 2 (2012)",
+      "group": "launch"
+    },
+    {
+      "name": 9,
+      "label": "CRS-1 (2012)",
+      "group": "launch"
+    },
+    {
+      "name": 10,
+      "label": "CRS-2 (2013)",
+      "group": "launch"
+    },
+    {
+      "name": 11,
+      "label": "CASSIOPE (2013)",
+      "group": "launch"
+    },
+    {
+      "name": 12,
+      "label": "SES-8 (2013)",
+      "group": "launch"
+    },
+    {
+      "name": 13,
+      "label": "Thaicom 6 (2014)",
+      "group": "launch"
+    },
+    {
+      "name": 14,
+      "label": "CRS-3 (2014)",
+      "group": "launch"
+    },
+    {
+      "name": 15,
+      "label": "OG-2 Mission 1 (2014)",
+      "group": "launch"
+    },
+    {
+      "name": 16,
+      "label": "AsiaSat 8 (2014)",
+      "group": "launch"
+    },
+    {
+      "name": 17,
+      "label": "AsiaSat 6 (2014)",
+      "group": "launch"
+    },
+    {
+      "name": 18,
+      "label": "CRS-4 (2014)",
+      "group": "launch"
+    },
+    {
+      "name": 19,
+      "label": "CRS-5 (2015)",
+      "group": "launch"
+    },
+    {
+      "name": 20,
+      "label": "DSCOVR (2015)",
+      "group": "launch"
+    },
+    {
+      "name": 21,
+      "label": "ABS-3A / Eutelsat 115W B (2015)",
+      "group": "launch"
+    },
+    {
+      "name": 22,
+      "label": "CRS-6 (2015)",
+      "group": "launch"
+    },
+    {
+      "name": 23,
+      "label": "TürkmenÄlem 52°E / MonacoSAT (2015)",
+      "group": "launch"
+    },
+    {
+      "name": 24,
+      "label": "CRS-7 (2015)",
+      "group": "launch"
+    },
+    {
+      "name": 25,
+      "label": "OG-2 Mission 2 (2015)",
+      "group": "launch"
+    },
+    {
+      "name": 26,
+      "label": "Jason 3 (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 27,
+      "label": "SES-9 (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 28,
+      "label": "CRS-8 (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 29,
+      "label": "JCSAT-2B (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 30,
+      "label": "Thaicom 8 (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 31,
+      "label": "ABS-2A / Eutelsat 117W B (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 32,
+      "label": "CRS-9 (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 33,
+      "label": "JCSAT-16 (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 34,
+      "label": "Amos-6 (2016)",
+      "group": "launch"
+    },
+    {
+      "name": 35,
+      "label": "Iridium NEXT Mission 1 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 36,
+      "label": "CRS-10 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 37,
+      "label": "EchoStar 23 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 38,
+      "label": "SES-10 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 39,
+      "label": "NROL-76 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 40,
+      "label": "Inmarsat-5 F4 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 41,
+      "label": "CRS-11 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 42,
+      "label": "BulgariaSat-1 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 43,
+      "label": "Iridium NEXT Mission 2 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 44,
+      "label": "Intelsat 35e (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 45,
+      "label": "CRS-12 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 46,
+      "label": "FormoSat-5 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 47,
+      "label": "Boeing X-37B OTV-5 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 48,
+      "label": "Iridium NEXT Mission 3 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 49,
+      "label": "SES-11 / Echostar 105 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 50,
+      "label": "KoreaSat 5A (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 51,
+      "label": "CRS-13 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 52,
+      "label": "Iridium NEXT Mission 4 (2017)",
+      "group": "launch"
+    },
+    {
+      "name": 53,
+      "label": "ZUMA (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 54,
+      "label": "SES-16 / GovSat-1 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 55,
+      "label": "Falcon Heavy Test Flight (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 56,
+      "label": "Paz / Starlink Demo (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 57,
+      "label": "Hispasat 30W-6 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 58,
+      "label": "Iridium NEXT Mission 5 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 59,
+      "label": "CRS-14 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 60,
+      "label": "TESS (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 61,
+      "label": "Bangabandhu-1 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 62,
+      "label": "Iridium NEXT Mission 6 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 63,
+      "label": "SES-12 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 64,
+      "label": "CRS-15 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 65,
+      "label": "Telstar 19V (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 66,
+      "label": "Iridium NEXT Mission 7 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 67,
+      "label": "Merah Putih (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 68,
+      "label": "Telstar 18V (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 69,
+      "label": "SAOCOM 1A (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 70,
+      "label": "Es’hail 2 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 71,
+      "label": "SSO-A (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 72,
+      "label": "CRS-16 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 73,
+      "label": "GPS III SV01 (2018)",
+      "group": "launch"
+    },
+    {
+      "name": 74,
+      "label": "Iridium NEXT Mission 8 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 75,
+      "label": "Nusantara Satu (PSN-6) / S5 / Beresheet (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 76,
+      "label": "CCtCap Demo Mission 1 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 77,
+      "label": "ArabSat 6A (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 78,
+      "label": "CRS-17 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 79,
+      "label": "Starlink v0.9 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 80,
+      "label": "RADARSAT Constellation (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 81,
+      "label": "STP-2 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 82,
+      "label": "CRS-18 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 83,
+      "label": "Amos-17 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 84,
+      "label": "Starlink 1 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 85,
+      "label": "CRS-19 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 86,
+      "label": "JCSat 18 / Kacific 1 (2019)",
+      "group": "launch"
+    },
+    {
+      "name": 87,
+      "label": "Starlink 2 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 88,
+      "label": "Crew Dragon In Flight Abort Test (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 89,
+      "label": "Starlink 3 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 90,
+      "label": "Starlink 4 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 91,
+      "label": "CRS-20 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 92,
+      "label": "Starlink 5 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 93,
+      "label": "SAOCOM 1B & Smallsat SSO Rideshare 1 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 94,
+      "label": "Starlink 6 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 95,
+      "label": "GPS III SV03 (Columbus) (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 96,
+      "label": "CCtCap Demo Mission 2 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 97,
+      "label": "ANASIS-II (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 98,
+      "label": "Starlink 7 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 99,
+      "label": "Starlink 8 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 100,
+      "label": "GPS III SV04 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 101,
+      "label": "SXM-7 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 102,
+      "label": "SXM-8 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 104,
+      "label": "CRS-21 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 105,
+      "label": "GPS SV05 (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 106,
+      "label": "Turksat 5A (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 106,
+      "label": "Smallsat SSO Rideshare 2 (Mission 9) (2020)",
+      "group": "launch"
+    },
+    {
+      "name": 112,
+      "label": "USCV-1 (NASA Crew Flight 1) (2021)",
+      "group": "launch"
+    },
+    {
+      "name": "vafb_slc_3w",
+      "label": "California (Vandenberg Air Force Base)",
+      "group": "launchpad"
+    },
+    {
+      "name": "ccafs_slc_40",
+      "label": "Florida (Cape Canaveral)",
+      "group": "launchpad"
+    },
+    {
+      "name": "stls",
+      "label": "Texas (Boca Chica Village)",
+      "group": "launchpad"
+    },
+    {
+      "name": "kwajalein_atoll",
+      "label": "Marshall Islands (Omelek Island)",
+      "group": "launchpad"
+    },
+    {
+      "name": "vafb_slc_4e",
+      "label": "California (Vandenberg Air Force Base)",
+      "group": "launchpad"
+    },
+    {
+      "name": "ksc_lc_39a",
+      "label": "Florida (Cape Canaveral)",
+      "group": "launchpad"
+    },
+    {
+      "name": "9D1B7E0",
+      "label": "Thaicom",
+      "group": "mission"
+    },
+    {
+      "name": "F4F83DE",
+      "label": "Telstar",
+      "group": "mission"
+    },
+    {
+      "name": "F3364BF",
+      "label": "Iridium NEXT",
+      "group": "mission"
+    },
+    {
+      "name": "EE86F74",
+      "label": "Commercial Resupply Services",
+      "group": "mission"
+    },
+    {
+      "name": "6C42550",
+      "label": "SES",
+      "group": "mission"
+    },
+    {
+      "name": "FE3533D",
+      "label": "JCSAT",
+      "group": "mission"
+    },
+    {
+      "name": "593B499",
+      "label": "AsiaSat",
+      "group": "mission"
+    },
+    {
+      "name": "CE91D46",
+      "label": "Orbcomm OG2",
+      "group": "mission"
+    },
+    {
+      "name": "2CF444A",
+      "label": "ABS",
+      "group": "mission"
+    },
+    {
+      "name": "F7709F2",
+      "label": "Eutelsat",
+      "group": "mission"
+    },
+    {
+      "name": "FalconSAT-2",
+      "label": "FalconSAT-2 (Satellite, 20kg)",
+      "group": "payload"
+    },
+    {
+      "name": "DemoSAT",
+      "label": "DemoSAT (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Trailblazer",
+      "label": "Trailblazer (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "PRESat",
+      "label": "PRESat (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "RatSat",
+      "label": "RatSat (Satellite, 165kg)",
+      "group": "payload"
+    },
+    {
+      "name": "RazakSAT",
+      "label": "RazakSAT (Satellite, 200kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Dragon Qualification Unit",
+      "label": "Dragon Qualification Unit (Dragon Boilerplate, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "COTS Demo Flight 1",
+      "label": "COTS Demo Flight 1 (Dragon 1.0, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Cubesats",
+      "label": "Cubesats (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "COTS Demo Flight 2",
+      "label": "COTS Demo Flight 2 (Dragon 1.0, 525kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-1",
+      "label": "CRS-1 (Dragon 1.0, 400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Orbcomm-OG2",
+      "label": "Orbcomm-OG2 (Dragon 1.0, 400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-2",
+      "label": "CRS-2 (Dragon 1.0, 677kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CASSIOPE",
+      "label": "CASSIOPE (Satellite, 500kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SES-8",
+      "label": "SES-8 (Satellite, 3170kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Thaicom 6",
+      "label": "Thaicom 6 (Satellite, 3325kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-3",
+      "label": "CRS-3 (Dragon 1.1, 2296kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Orbcomm-OG2-M1",
+      "label": "Orbcomm-OG2-M1 (Satellite, 1316kg)",
+      "group": "payload"
+    },
+    {
+      "name": "AsiaSat 8",
+      "label": "AsiaSat 8 (Satellite, 4535kg)",
+      "group": "payload"
+    },
+    {
+      "name": "AsiaSat 6",
+      "label": "AsiaSat 6 (Satellite, 4428kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-4",
+      "label": "CRS-4 (Dragon 1.1, 2216kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-5",
+      "label": "CRS-5 (Dragon 1.1, 2395kg)",
+      "group": "payload"
+    },
+    {
+      "name": "DSCOVR",
+      "label": "DSCOVR (Satellite, 570kg)",
+      "group": "payload"
+    },
+    {
+      "name": "ABS-3A",
+      "label": "ABS-3A (Satellite, 1954kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Eutelsat 115 West B",
+      "label": "Eutelsat 115 West B (Satellite, 2205kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-6",
+      "label": "CRS-6 (Dragon 1.1, 1898kg)",
+      "group": "payload"
+    },
+    {
+      "name": "TürkmenÄlem 52°E / MonacoSAT",
+      "label": "TürkmenÄlem 52°E / MonacoSAT (Satellite, 4707kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-7",
+      "label": "CRS-7 (Dragon 1.1, 2477kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Orbcomm-OG2-M2",
+      "label": "Orbcomm-OG2-M2 (Satellite, 2034kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Jason-3",
+      "label": "Jason-3 (Satellite, 553kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SES-9",
+      "label": "SES-9 (Satellite, 5271kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-8",
+      "label": "CRS-8 (Dragon 1.1, 3136kg)",
+      "group": "payload"
+    },
+    {
+      "name": "JCSAT-2B",
+      "label": "JCSAT-2B (Satellite, 4696kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Thaicom 8",
+      "label": "Thaicom 8 (Satellite, 3100kg)",
+      "group": "payload"
+    },
+    {
+      "name": "ABS-2A",
+      "label": "ABS-2A (Satellite, 1800kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Eutelsat 117 West B",
+      "label": "Eutelsat 117 West B (Satellite, 1800kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-9",
+      "label": "CRS-9 (Dragon 1.1, 2257kg)",
+      "group": "payload"
+    },
+    {
+      "name": "JCSAT-16",
+      "label": "JCSAT-16 (Satellite, 4600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Amos-6",
+      "label": "Amos-6 (Satellite, 5500kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 1",
+      "label": "Iridium NEXT 1 (Satellite, 9600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-10",
+      "label": "CRS-10 (Dragon 1.1, 2490kg)",
+      "group": "payload"
+    },
+    {
+      "name": "EchoStar 23",
+      "label": "EchoStar 23 (Satellite, 5600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SES-10",
+      "label": "SES-10 (Satellite, 5300kg)",
+      "group": "payload"
+    },
+    {
+      "name": "NROL-76",
+      "label": "NROL-76 (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Inmarsat-5 F4",
+      "label": "Inmarsat-5 F4 (Satellite, 6070kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-11",
+      "label": "CRS-11 (Dragon 1.1, 2708kg)",
+      "group": "payload"
+    },
+    {
+      "name": "BulgariaSat-1",
+      "label": "BulgariaSat-1 (Satellite, 3669kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 2",
+      "label": "Iridium NEXT 2 (Satellite, 9600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Intelsat 35e",
+      "label": "Intelsat 35e (Satellite, 6761kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-12",
+      "label": "CRS-12 (Dragon 1.1, 2910kg)",
+      "group": "payload"
+    },
+    {
+      "name": "FormoSat-5",
+      "label": "FormoSat-5 (Satellite, 475kg)",
+      "group": "payload"
+    },
+    {
+      "name": "X-37B OTV-5",
+      "label": "X-37B OTV-5 (Satellite, 4990kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 3",
+      "label": "Iridium NEXT 3 (Satellite, 9600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SES-11 / Echostar 105",
+      "label": "SES-11 / Echostar 105 (Satellite, 5200kg)",
+      "group": "payload"
+    },
+    {
+      "name": "KoreaSat 5A",
+      "label": "KoreaSat 5A (Satellite, 3700kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-13",
+      "label": "CRS-13 (Dragon 1.1, 2205kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 4",
+      "label": "Iridium NEXT 4 (Satellite, 9600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "ZUMA",
+      "label": "ZUMA (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "GovSat-1",
+      "label": "GovSat-1 (Satellite, 4230kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Tesla Roadster",
+      "label": "Tesla Roadster (Satellite, 1350kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Paz",
+      "label": "Paz (Satellite, 1350kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Tintin A & B",
+      "label": "Tintin A & B (Satellite, 800kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Hispasat 30W-6",
+      "label": "Hispasat 30W-6 (Satellite, 6092kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 5",
+      "label": "Iridium NEXT 5 (Satellite, 9600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-14",
+      "label": "CRS-14 (Dragon 1.1, 2760kg)",
+      "group": "payload"
+    },
+    {
+      "name": "TESS",
+      "label": "TESS (Satellite, 350kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Bangabandhu-1",
+      "label": "Bangabandhu-1 (Satellite, 3750kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 6",
+      "label": "Iridium NEXT 6 (Satellite, 4300kg)",
+      "group": "payload"
+    },
+    {
+      "name": "GRACE-FO 1-2",
+      "label": "GRACE-FO 1-2 (Satellite, 1160kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SES-12",
+      "label": "SES-12 (Satellite, 5383.85kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-15",
+      "label": "CRS-15 (Dragon 1.1, 2410kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Telstar 19V",
+      "label": "Telstar 19V (Satellite, 7076kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 7",
+      "label": "Iridium NEXT 7 (Satellite, 9600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Telkom-4",
+      "label": "Telkom-4 (Satellite, 5800kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Telstar 18V",
+      "label": "Telstar 18V (Satellite, 7060kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SAOCOM 1A",
+      "label": "SAOCOM 1A (Satellite, 2800kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Es’hail 2",
+      "label": "Es’hail 2 (Satellite, 3000kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SSO-A",
+      "label": "SSO-A (Satellite, 4000kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-16",
+      "label": "CRS-16 (Dragon 1.1, 2573kg)",
+      "group": "payload"
+    },
+    {
+      "name": "GPS III SV01",
+      "label": "GPS III SV01 (Satellite, 4400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Iridium NEXT 8",
+      "label": "Iridium NEXT 8 (Satellite, 9600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Nusantara Satu (PSN-6)",
+      "label": "Nusantara Satu (PSN-6) (Satellite, 5000kg)",
+      "group": "payload"
+    },
+    {
+      "name": "S5",
+      "label": "S5 (Satellite, 60kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Beresheet",
+      "label": "Beresheet (Lander, 585kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CCtCap Demo Mission 1",
+      "label": "CCtCap Demo Mission 1 (Crew Dragon, 12259kg)",
+      "group": "payload"
+    },
+    {
+      "name": "ArabSat 6A",
+      "label": "ArabSat 6A (Satellite, 6000kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-17",
+      "label": "CRS-17 (Dragon 1.1, 2482kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 1 (v0.9)",
+      "label": "Starlink 1 (v0.9) (Satellite, 13620kg)",
+      "group": "payload"
+    },
+    {
+      "name": "RADARSAT Constellation",
+      "label": "RADARSAT Constellation (Satellite, 1425kg)",
+      "group": "payload"
+    },
+    {
+      "name": "DSX",
+      "label": "DSX (Satellite, 600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "COSMIC-2",
+      "label": "COSMIC-2 (Satellite, 1668kg)",
+      "group": "payload"
+    },
+    {
+      "name": "GPIM",
+      "label": "GPIM (Satellite, 180kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Oculus-ASR",
+      "label": "Oculus-ASR (Satellite, 70kg)",
+      "group": "payload"
+    },
+    {
+      "name": "OTB 1",
+      "label": "OTB 1 (Satellite, 138kg)",
+      "group": "payload"
+    },
+    {
+      "name": "NPSAT 1",
+      "label": "NPSAT 1 (Satellite, 86kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Prox-1",
+      "label": "Prox-1 (Satellite, 71kg)",
+      "group": "payload"
+    },
+    {
+      "name": "LightSail-B",
+      "label": "LightSail-B (Satellite, 5kg)",
+      "group": "payload"
+    },
+    {
+      "name": "ARMADILLO",
+      "label": "ARMADILLO (Satellite, 4kg)",
+      "group": "payload"
+    },
+    {
+      "name": "FalconSat 7",
+      "label": "FalconSat 7 (Satellite, 5kg)",
+      "group": "payload"
+    },
+    {
+      "name": "E-TBEx A & B",
+      "label": "E-TBEx A & B (Satellite, 4kg)",
+      "group": "payload"
+    },
+    {
+      "name": "PSat 2",
+      "label": "PSat 2 (Satellite, 2kg)",
+      "group": "payload"
+    },
+    {
+      "name": "BRICSat 2",
+      "label": "BRICSat 2 (Satellite, 1kg)",
+      "group": "payload"
+    },
+    {
+      "name": "TEPCE 1 & 2",
+      "label": "TEPCE 1 & 2 (Satellite, 1.5kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CP9",
+      "label": "CP9 (Satellite, 1.5kg)",
+      "group": "payload"
+    },
+    {
+      "name": "StangSat",
+      "label": "StangSat (Satellite, 1kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-18",
+      "label": "CRS-18 (Dragon 1.1, 2227.7kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Amos-17",
+      "label": "Amos-17 (Satellite, 6500kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 2",
+      "label": "Starlink 2 (Satellite, 15600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-19",
+      "label": "CRS-19 (Dragon 1.1, 5000kg)",
+      "group": "payload"
+    },
+    {
+      "name": "JCSat 18 / Kacific 1",
+      "label": "JCSat 18 / Kacific 1 (Satellite, 6800kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 2",
+      "label": "Starlink 2 (Satellite, 15400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Crew Dragon In Flight Abort Test",
+      "label": "Crew Dragon In Flight Abort Test (Crew Dragon, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 3",
+      "label": "Starlink 3 (Satellite, 15600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 4",
+      "label": "Starlink 4 (Satellite, 15400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-20",
+      "label": "CRS-20 (Dragon 1.1, 1977kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 5",
+      "label": "Starlink 5 (Satellite, 15600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "SAOCOM 1B",
+      "label": "SAOCOM 1B (Satellite, 1600kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Smallsat SSO Rideshare 1",
+      "label": "Smallsat SSO Rideshare 1 (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 6",
+      "label": "Starlink 6 (Satellite, 15400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "GPS III SV03 (Columbus)",
+      "label": "GPS III SV03 (Columbus) (Satellite, 3880kg)",
+      "group": "payload"
+    },
+    {
+      "name": "CCtCap Demo Mission 2",
+      "label": "CCtCap Demo Mission 2 (Crew Dragon, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "ANASIS-II",
+      "label": "ANASIS-II (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 7",
+      "label": "Starlink 7 (Satellite, 15400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "Starlink 8",
+      "label": "Starlink 8 (Satellite, 15400kg)",
+      "group": "payload"
+    },
+    {
+      "name": "GPS III SV04",
+      "label": "GPS III SV04 (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "SXM-7",
+      "label": "SXM-7 (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "SXM-8",
+      "label": "SXM-8 (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "CRS-21",
+      "label": "CRS-21 (Dragon 1.1, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "GPS SV05",
+      "label": "GPS SV05 (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Turksat 5A",
+      "label": "Turksat 5A (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "Smallsat SSO Rideshare 2 (Mission 9)",
+      "label": "Smallsat SSO Rideshare 2 (Mission 9) (Satellite, nullkg)",
+      "group": "payload"
+    },
+    {
+      "name": "USCV-1 (NASA Crew Flight 1)",
+      "label": "USCV-1 (NASA Crew Flight 1) (Crew Dragon, nullkg)",
+      "group": "payload"
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": "falcon1",
+      "value": 0.5
+    },
+    {
+      "source": 1,
+      "target": "FalconSAT-2",
+      "value": 0.5
+    },
+    {
+      "source": 1,
+      "target": "kwajalein_atoll",
+      "value": 0.5
+    },
+    {
+      "source": 2,
+      "target": "falcon1",
+      "value": 0.5
+    },
+    {
+      "source": 2,
+      "target": "DemoSAT",
+      "value": 0.5
+    },
+    {
+      "source": 2,
+      "target": "kwajalein_atoll",
+      "value": 0.5
+    },
+    {
+      "source": 3,
+      "target": "falcon1",
+      "value": 0.5
+    },
+    {
+      "source": 3,
+      "target": "Trailblazer",
+      "value": 0.5
+    },
+    {
+      "source": 3,
+      "target": "PRESat",
+      "value": 0.5
+    },
+    {
+      "source": 3,
+      "target": "kwajalein_atoll",
+      "value": 0.5
+    },
+    {
+      "source": 4,
+      "target": "falcon1",
+      "value": 0.5
+    },
+    {
+      "source": 4,
+      "target": "RatSat",
+      "value": 0.5
+    },
+    {
+      "source": 4,
+      "target": "kwajalein_atoll",
+      "value": 0.5
+    },
+    {
+      "source": 5,
+      "target": "falcon1",
+      "value": 0.5
+    },
+    {
+      "source": 5,
+      "target": "RazakSAT",
+      "value": 0.5
+    },
+    {
+      "source": 5,
+      "target": "kwajalein_atoll",
+      "value": 0.5
+    },
+    {
+      "source": 6,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 6,
+      "target": "Dragon Qualification Unit",
+      "value": 0.5
+    },
+    {
+      "source": 6,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 7,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 7,
+      "target": "COTS Demo Flight 1",
+      "value": 0.5
+    },
+    {
+      "source": 7,
+      "target": "Cubesats",
+      "value": 0.5
+    },
+    {
+      "source": 7,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 8,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 8,
+      "target": "COTS Demo Flight 2",
+      "value": 0.5
+    },
+    {
+      "source": 8,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 9,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 9,
+      "target": "CRS-1",
+      "value": 0.5
+    },
+    {
+      "source": 9,
+      "target": "Orbcomm-OG2",
+      "value": 0.5
+    },
+    {
+      "source": 9,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 10,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 10,
+      "target": "CRS-2",
+      "value": 0.5
+    },
+    {
+      "source": 10,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 11,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 11,
+      "target": "CASSIOPE",
+      "value": 0.5
+    },
+    {
+      "source": 11,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 12,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 12,
+      "target": "SES-8",
+      "value": 0.5
+    },
+    {
+      "source": 12,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 13,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 13,
+      "target": "Thaicom 6",
+      "value": 0.5
+    },
+    {
+      "source": 13,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 14,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 14,
+      "target": "CRS-3",
+      "value": 0.5
+    },
+    {
+      "source": 14,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 15,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 15,
+      "target": "Orbcomm-OG2-M1",
+      "value": 0.5
+    },
+    {
+      "source": 15,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 16,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 16,
+      "target": "AsiaSat 8",
+      "value": 0.5
+    },
+    {
+      "source": 16,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 17,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 17,
+      "target": "AsiaSat 6",
+      "value": 0.5
+    },
+    {
+      "source": 17,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 18,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 18,
+      "target": "CRS-4",
+      "value": 0.5
+    },
+    {
+      "source": 18,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 19,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 19,
+      "target": "CRS-5",
+      "value": 0.5
+    },
+    {
+      "source": 19,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 20,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 20,
+      "target": "DSCOVR",
+      "value": 0.5
+    },
+    {
+      "source": 20,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 21,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 21,
+      "target": "ABS-3A",
+      "value": 0.5
+    },
+    {
+      "source": 21,
+      "target": "Eutelsat 115 West B",
+      "value": 0.5
+    },
+    {
+      "source": 21,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 22,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 22,
+      "target": "CRS-6",
+      "value": 0.5
+    },
+    {
+      "source": 22,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 23,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 23,
+      "target": "TürkmenÄlem 52°E / MonacoSAT",
+      "value": 0.5
+    },
+    {
+      "source": 23,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 24,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 24,
+      "target": "CRS-7",
+      "value": 0.5
+    },
+    {
+      "source": 24,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 25,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 25,
+      "target": "Orbcomm-OG2-M2",
+      "value": 0.5
+    },
+    {
+      "source": 25,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 26,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 26,
+      "target": "Jason-3",
+      "value": 0.5
+    },
+    {
+      "source": 26,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 27,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 27,
+      "target": "SES-9",
+      "value": 0.5
+    },
+    {
+      "source": 27,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 28,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 28,
+      "target": "CRS-8",
+      "value": 0.5
+    },
+    {
+      "source": 28,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 29,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 29,
+      "target": "JCSAT-2B",
+      "value": 0.5
+    },
+    {
+      "source": 29,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 30,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 30,
+      "target": "Thaicom 8",
+      "value": 0.5
+    },
+    {
+      "source": 30,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 31,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 31,
+      "target": "ABS-2A",
+      "value": 0.5
+    },
+    {
+      "source": 31,
+      "target": "Eutelsat 117 West B",
+      "value": 0.5
+    },
+    {
+      "source": 31,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 32,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 32,
+      "target": "CRS-9",
+      "value": 0.5
+    },
+    {
+      "source": 32,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 33,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 33,
+      "target": "JCSAT-16",
+      "value": 0.5
+    },
+    {
+      "source": 33,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 34,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 34,
+      "target": "Amos-6",
+      "value": 0.5
+    },
+    {
+      "source": 34,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 35,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 35,
+      "target": "Iridium NEXT 1",
+      "value": 0.5
+    },
+    {
+      "source": 35,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 36,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 36,
+      "target": "CRS-10",
+      "value": 0.5
+    },
+    {
+      "source": 36,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 37,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 37,
+      "target": "EchoStar 23",
+      "value": 0.5
+    },
+    {
+      "source": 37,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 38,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 38,
+      "target": "SES-10",
+      "value": 0.5
+    },
+    {
+      "source": 38,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 39,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 39,
+      "target": "NROL-76",
+      "value": 0.5
+    },
+    {
+      "source": 39,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 40,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 40,
+      "target": "Inmarsat-5 F4",
+      "value": 0.5
+    },
+    {
+      "source": 40,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 41,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 41,
+      "target": "CRS-11",
+      "value": 0.5
+    },
+    {
+      "source": 41,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 42,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 42,
+      "target": "BulgariaSat-1",
+      "value": 0.5
+    },
+    {
+      "source": 42,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 43,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 43,
+      "target": "Iridium NEXT 2",
+      "value": 0.5
+    },
+    {
+      "source": 43,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 44,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 44,
+      "target": "Intelsat 35e",
+      "value": 0.5
+    },
+    {
+      "source": 44,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 45,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 45,
+      "target": "CRS-12",
+      "value": 0.5
+    },
+    {
+      "source": 45,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 46,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 46,
+      "target": "FormoSat-5",
+      "value": 0.5
+    },
+    {
+      "source": 46,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 47,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 47,
+      "target": "X-37B OTV-5",
+      "value": 0.5
+    },
+    {
+      "source": 47,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 48,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 48,
+      "target": "Iridium NEXT 3",
+      "value": 0.5
+    },
+    {
+      "source": 48,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 49,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 49,
+      "target": "SES-11 / Echostar 105",
+      "value": 0.5
+    },
+    {
+      "source": 49,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 50,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 50,
+      "target": "KoreaSat 5A",
+      "value": 0.5
+    },
+    {
+      "source": 50,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 51,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 51,
+      "target": "CRS-13",
+      "value": 0.5
+    },
+    {
+      "source": 51,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 52,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 52,
+      "target": "Iridium NEXT 4",
+      "value": 0.5
+    },
+    {
+      "source": 52,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 53,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 53,
+      "target": "ZUMA",
+      "value": 0.5
+    },
+    {
+      "source": 53,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 54,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 54,
+      "target": "GovSat-1",
+      "value": 0.5
+    },
+    {
+      "source": 54,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 55,
+      "target": "falconheavy",
+      "value": 0.5
+    },
+    {
+      "source": 55,
+      "target": "Tesla Roadster",
+      "value": 0.5
+    },
+    {
+      "source": 55,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 56,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 56,
+      "target": "Paz",
+      "value": 0.5
+    },
+    {
+      "source": 56,
+      "target": "Tintin A & B",
+      "value": 0.5
+    },
+    {
+      "source": 56,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 57,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 57,
+      "target": "Hispasat 30W-6",
+      "value": 0.5
+    },
+    {
+      "source": 57,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 58,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 58,
+      "target": "Iridium NEXT 5",
+      "value": 0.5
+    },
+    {
+      "source": 58,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 59,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 59,
+      "target": "CRS-14",
+      "value": 0.5
+    },
+    {
+      "source": 59,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 60,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 60,
+      "target": "TESS",
+      "value": 0.5
+    },
+    {
+      "source": 60,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 61,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 61,
+      "target": "Bangabandhu-1",
+      "value": 0.5
+    },
+    {
+      "source": 61,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 62,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 62,
+      "target": "Iridium NEXT 6",
+      "value": 0.5
+    },
+    {
+      "source": 62,
+      "target": "GRACE-FO 1-2",
+      "value": 0.5
+    },
+    {
+      "source": 62,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 63,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 63,
+      "target": "SES-12",
+      "value": 0.5
+    },
+    {
+      "source": 63,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 64,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 64,
+      "target": "CRS-15",
+      "value": 0.5
+    },
+    {
+      "source": 64,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 65,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 65,
+      "target": "Telstar 19V",
+      "value": 0.5
+    },
+    {
+      "source": 65,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 66,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 66,
+      "target": "Iridium NEXT 7",
+      "value": 0.5
+    },
+    {
+      "source": 66,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 67,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 67,
+      "target": "Telkom-4",
+      "value": 0.5
+    },
+    {
+      "source": 67,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 68,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 68,
+      "target": "Telstar 18V",
+      "value": 0.5
+    },
+    {
+      "source": 68,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 69,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 69,
+      "target": "SAOCOM 1A",
+      "value": 0.5
+    },
+    {
+      "source": 69,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 70,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 70,
+      "target": "Es’hail 2",
+      "value": 0.5
+    },
+    {
+      "source": 70,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 71,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 71,
+      "target": "SSO-A",
+      "value": 0.5
+    },
+    {
+      "source": 71,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 72,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 72,
+      "target": "CRS-16",
+      "value": 0.5
+    },
+    {
+      "source": 72,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 73,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 73,
+      "target": "GPS III SV01",
+      "value": 0.5
+    },
+    {
+      "source": 73,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 74,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 74,
+      "target": "Iridium NEXT 8",
+      "value": 0.5
+    },
+    {
+      "source": 74,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 75,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 75,
+      "target": "Nusantara Satu (PSN-6)",
+      "value": 0.5
+    },
+    {
+      "source": 75,
+      "target": "S5",
+      "value": 0.5
+    },
+    {
+      "source": 75,
+      "target": "Beresheet",
+      "value": 0.5
+    },
+    {
+      "source": 75,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 76,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 76,
+      "target": "CCtCap Demo Mission 1",
+      "value": 0.5
+    },
+    {
+      "source": 76,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 77,
+      "target": "falconheavy",
+      "value": 0.5
+    },
+    {
+      "source": 77,
+      "target": "ArabSat 6A",
+      "value": 0.5
+    },
+    {
+      "source": 77,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 78,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 78,
+      "target": "CRS-17",
+      "value": 0.5
+    },
+    {
+      "source": 78,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 79,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 79,
+      "target": "Starlink 1 (v0.9)",
+      "value": 0.5
+    },
+    {
+      "source": 79,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 80,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 80,
+      "target": "RADARSAT Constellation",
+      "value": 0.5
+    },
+    {
+      "source": 80,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "falconheavy",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "DSX",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "COSMIC-2",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "GPIM",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "Oculus-ASR",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "OTB 1",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "NPSAT 1",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "Prox-1",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "LightSail-B",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "ARMADILLO",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "FalconSat 7",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "E-TBEx A & B",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "PSat 2",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "BRICSat 2",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "TEPCE 1 & 2",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "CP9",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "StangSat",
+      "value": 0.5
+    },
+    {
+      "source": 81,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 82,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 82,
+      "target": "CRS-18",
+      "value": 0.5
+    },
+    {
+      "source": 82,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 83,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 83,
+      "target": "Amos-17",
+      "value": 0.5
+    },
+    {
+      "source": 83,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 84,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 84,
+      "target": "Starlink 2",
+      "value": 0.5
+    },
+    {
+      "source": 84,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 85,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 85,
+      "target": "CRS-19",
+      "value": 0.5
+    },
+    {
+      "source": 85,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 86,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 86,
+      "target": "JCSat 18 / Kacific 1",
+      "value": 0.5
+    },
+    {
+      "source": 86,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 87,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 87,
+      "target": "Starlink 2",
+      "value": 0.5
+    },
+    {
+      "source": 87,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 88,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 88,
+      "target": "Crew Dragon In Flight Abort Test",
+      "value": 0.5
+    },
+    {
+      "source": 88,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 89,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 89,
+      "target": "Starlink 3",
+      "value": 0.5
+    },
+    {
+      "source": 89,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 90,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 90,
+      "target": "Starlink 4",
+      "value": 0.5
+    },
+    {
+      "source": 90,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 91,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 91,
+      "target": "CRS-20",
+      "value": 0.5
+    },
+    {
+      "source": 91,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 92,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 92,
+      "target": "Starlink 5",
+      "value": 0.5
+    },
+    {
+      "source": 92,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 93,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 93,
+      "target": "SAOCOM 1B",
+      "value": 0.5
+    },
+    {
+      "source": 93,
+      "target": "Smallsat SSO Rideshare 1",
+      "value": 0.5
+    },
+    {
+      "source": 93,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 94,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 94,
+      "target": "Starlink 6",
+      "value": 0.5
+    },
+    {
+      "source": 94,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 95,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 95,
+      "target": "GPS III SV03 (Columbus)",
+      "value": 0.5
+    },
+    {
+      "source": 95,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 96,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 96,
+      "target": "CCtCap Demo Mission 2",
+      "value": 0.5
+    },
+    {
+      "source": 96,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 97,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 97,
+      "target": "ANASIS-II",
+      "value": 0.5
+    },
+    {
+      "source": 97,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 98,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 98,
+      "target": "Starlink 7",
+      "value": 0.5
+    },
+    {
+      "source": 98,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 99,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 99,
+      "target": "Starlink 8",
+      "value": 0.5
+    },
+    {
+      "source": 99,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 100,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 100,
+      "target": "GPS III SV04",
+      "value": 0.5
+    },
+    {
+      "source": 100,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 101,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 101,
+      "target": "SXM-7",
+      "value": 0.5
+    },
+    {
+      "source": 101,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 102,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 102,
+      "target": "SXM-8",
+      "value": 0.5
+    },
+    {
+      "source": 102,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 104,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 104,
+      "target": "CRS-21",
+      "value": 0.5
+    },
+    {
+      "source": 104,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": 105,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 105,
+      "target": "GPS SV05",
+      "value": 0.5
+    },
+    {
+      "source": 105,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 106,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 106,
+      "target": "Turksat 5A",
+      "value": 0.5
+    },
+    {
+      "source": 106,
+      "target": "ccafs_slc_40",
+      "value": 0.5
+    },
+    {
+      "source": 106,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 106,
+      "target": "Smallsat SSO Rideshare 2 (Mission 9)",
+      "value": 0.5
+    },
+    {
+      "source": 106,
+      "target": "vafb_slc_4e",
+      "value": 0.5
+    },
+    {
+      "source": 112,
+      "target": "falcon9",
+      "value": 0.5
+    },
+    {
+      "source": 112,
+      "target": "USCV-1 (NASA Crew Flight 1)",
+      "value": 0.5
+    },
+    {
+      "source": 112,
+      "target": "ksc_lc_39a",
+      "value": 0.5
+    },
+    {
+      "source": "9D1B7E0",
+      "target": "Thaicom 6",
+      "value": 0.5
+    },
+    {
+      "source": "9D1B7E0",
+      "target": "Thaicom 8",
+      "value": 0.5
+    },
+    {
+      "source": "F4F83DE",
+      "target": "Telstar 19V",
+      "value": 0.5
+    },
+    {
+      "source": "F4F83DE",
+      "target": "Telstar 18V",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 1",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 2",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 3",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 4",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 5",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 6",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 7",
+      "value": 0.5
+    },
+    {
+      "source": "F3364BF",
+      "target": "Iridium NEXT 8",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "Dragon Qualification Unit",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "COTS Demo Flight 1",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "COTS Demo Flight 2",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-1",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-2",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-3",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-4",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-5",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-6",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-7",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-8",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-9",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-10",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-11",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-12",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-13",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-14",
+      "value": 0.5
+    },
+    {
+      "source": "EE86F74",
+      "target": "CRS-15",
+      "value": 0.5
+    },
+    {
+      "source": "6C42550",
+      "target": "SES-8",
+      "value": 0.5
+    },
+    {
+      "source": "6C42550",
+      "target": "SES-9",
+      "value": 0.5
+    },
+    {
+      "source": "6C42550",
+      "target": "SES-10",
+      "value": 0.5
+    },
+    {
+      "source": "6C42550",
+      "target": "SES-12",
+      "value": 0.5
+    },
+    {
+      "source": "FE3533D",
+      "target": "JCSAT-2B",
+      "value": 0.5
+    },
+    {
+      "source": "FE3533D",
+      "target": "JCSAT-16",
+      "value": 0.5
+    },
+    {
+      "source": "593B499",
+      "target": "AsiaSat 8",
+      "value": 0.5
+    },
+    {
+      "source": "593B499",
+      "target": "AsiaSat 6",
+      "value": 0.5
+    },
+    {
+      "source": "CE91D46",
+      "target": "Orbcomm-OG2",
+      "value": 0.5
+    },
+    {
+      "source": "CE91D46",
+      "target": "Orbcomm-OG2-M1",
+      "value": 0.5
+    },
+    {
+      "source": "CE91D46",
+      "target": "Orbcomm-OG2-M2",
+      "value": 0.5
+    },
+    {
+      "source": "2CF444A",
+      "target": "ABS-3A",
+      "value": 0.5
+    },
+    {
+      "source": "F7709F2",
+      "target": "Eutelsat 115 West B",
+      "value": 0.5
+    },
+    {
+      "source": "F7709F2",
+      "target": "Eutelsat 117 West B",
+      "value": 0.5
+    }
+  ]
+}

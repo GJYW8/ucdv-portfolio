@@ -1,0 +1,23 @@
+.x2 {
+    display: none;
+}
+.graph > .background,
+.plot > .background {
+    fill: #ffffff !important;
+    background-color: #ffffff !important;
+}
+
+.tooltip rect {
+    fill: #fff !important;
+    fill-opacity: 1 !important;
+}
+
+
+
+g.legend {
+    margin-bottom: 0.5em !important;
+}
+
+.major text {
+    font-weight: 600;
+}
